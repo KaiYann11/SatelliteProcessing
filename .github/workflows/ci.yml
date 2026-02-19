@@ -8,7 +8,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
 
     steps:
     - name: Checkout
@@ -26,13 +26,13 @@ jobs:
       run: dotnet build SatelliteProcessing.sln --configuration Release --no-restore
 
     - name: Run tests (if any)
+      shell: pwsh
       run: |
-        set -e
-        tests=$(find . -name '*Test*.csproj' -o -name '*Tests*.csproj' || true)
-        if [ -n "$tests" ]; then
-          for t in $tests; do
-            dotnet test "$t" --no-build --verbosity normal
-          done
-        else
-          echo "No test projects found."
-        fi
+        $tests = Get-ChildItem -Path . -Recurse -Filter '*Test*.csproj' -ErrorAction SilentlyContinue | Select-Object -ExpandProperty FullName
+        if ($tests) {
+          foreach ($t in $tests) {
+            dotnet test $t --no-build --verbosity normal
+          }
+        } else {
+          Write-Host "No test projects found."
+        }
