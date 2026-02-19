@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <ItemGroup>
+    <ProjectReference Include="..\SatelliteProcessing.Application\SatelliteProcessing.Application.csproj" />
+    <ProjectReference Include="..\SatelliteProcessing.Infrastructure\SatelliteProcessing.Infrastructure.csproj" />
+    <ProjectReference Include="..\SatelliteProcessing.Contracts\SatelliteProcessing.Contracts.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+</Project>
