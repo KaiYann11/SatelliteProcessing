@@ -1,5 +1,8 @@
 using SatelliteProcessing.Domain;
 
+// 파일: SatelliteProcessing.Application/Abstractions/IStageProcessor.cs
+// 설명: 처리 파이프라인의 개별 단계를 구현하기 위한 인터페이스입니다.
+
 namespace SatelliteProcessing.Application.Abstractions;
 
 /// <summary>

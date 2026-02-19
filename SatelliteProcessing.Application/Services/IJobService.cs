@@ -1,6 +1,9 @@
 using SatelliteProcessing.Application.Models;
 using SatelliteProcessing.Domain;
 
+// 파일: SatelliteProcessing.Application/Services/IJobService.cs
+// 설명: 작업 생성 및 조회 등의 기능을 정의하는 서비스 인터페이스입니다.
+
 namespace SatelliteProcessing.Application.Services;
 
 /// <summary>

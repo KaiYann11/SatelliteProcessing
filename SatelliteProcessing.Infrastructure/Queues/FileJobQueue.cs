@@ -2,6 +2,9 @@ using SatelliteProcessing.Application.Abstractions;
 using SatelliteProcessing.Infrastructure.Options;
 using SatelliteProcessing.Infrastructure.Storage;
 
+// 파일: SatelliteProcessing.Infrastructure/Queues/FileJobQueue.cs
+// 설명: 파일 시스템을 사용하여 작업을 큐잉하는 구현입니다. 디스크 기반 영속성을 제공합니다.
+
 namespace SatelliteProcessing.Infrastructure.Queues;
 
 /// <summary>

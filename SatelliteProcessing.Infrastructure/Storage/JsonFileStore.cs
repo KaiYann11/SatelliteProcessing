@@ -1,5 +1,8 @@
 using System.Text.Json;
 
+// 파일: SatelliteProcessing.Infrastructure/Storage/JsonFileStore.cs
+// 설명: JSON 파일 기반의 간단한 저장소 구현입니다. 객체를 직렬화하여 파일에 저장합니다.
+
 namespace SatelliteProcessing.Infrastructure.Storage;
 
 /// <summary>

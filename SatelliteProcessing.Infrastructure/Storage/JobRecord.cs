@@ -1,6 +1,9 @@
 using SatelliteProcessing.Domain;
 using System.Linq;
 
+// 파일: SatelliteProcessing.Infrastructure/Storage/JobRecord.cs
+// 설명: 파일 저장소에서 사용되는 작업 레코드 모델입니다.
+
 namespace SatelliteProcessing.Infrastructure.Storage;
 
 /// <summary>

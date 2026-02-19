@@ -1,3 +1,6 @@
+// 파일: SatelliteProcessing.Infrastructure/Storage/JobStoreModel.cs
+// 설명: 작업 정보를 파일에 저장하기 위한 직렬화 모델입니다.
+
 namespace SatelliteProcessing.Infrastructure.Storage;
 
 /// <summary>

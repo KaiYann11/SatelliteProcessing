@@ -1,3 +1,6 @@
+// 파일: SatelliteProcessing.Server.Api/Program.cs
+// 설명: API 호스트의 진입점입니다. 웹 앱을 구성하고 DI 및 미들웨어를 설정합니다.
+
 using SatelliteProcessing.Application.Abstractions;
 using SatelliteProcessing.Application.Services;
 using SatelliteProcessing.Contracts;

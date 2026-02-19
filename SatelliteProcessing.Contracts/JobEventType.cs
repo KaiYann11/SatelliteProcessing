@@ -1,3 +1,6 @@
+// 파일: SatelliteProcessing.Contracts/JobEventType.cs
+// 설명: 작업 이벤트의 유형을 나타내는 계약용 열거형입니다.
+
 namespace SatelliteProcessing.Contracts;
 
 /// <summary>

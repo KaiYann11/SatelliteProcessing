@@ -1,3 +1,6 @@
+// 파일: SatelliteProcessing.Contracts/ProcessingStatus.cs
+// 설명: 처리 단계의 상태를 표현하는 계약용 열거형입니다 (API와의 교환용).
+
 namespace SatelliteProcessing.Contracts;
 
 /// <summary>

@@ -1,3 +1,6 @@
+// 파일: SatelliteProcessing.Domain/JobEvent.cs
+// 설명: 작업 이벤트를 나타내는 도메인 모델입니다. 이벤트 시퀀스, 타입 및 메시지를 저장합니다.
+
 namespace SatelliteProcessing.Domain;
 
 /// <summary>

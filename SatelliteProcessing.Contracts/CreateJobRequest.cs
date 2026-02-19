@@ -1,3 +1,6 @@
+// 파일: SatelliteProcessing.Contracts/CreateJobRequest.cs
+// 설명: API를 통해 작업 생성을 요청할 때 사용되는 DTO입니다.
+
 namespace SatelliteProcessing.Contracts;
 
 /// <summary>

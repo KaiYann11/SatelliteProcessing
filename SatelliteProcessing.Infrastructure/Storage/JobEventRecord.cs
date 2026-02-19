@@ -1,5 +1,8 @@
 using SatelliteProcessing.Domain;
 
+// 파일: SatelliteProcessing.Infrastructure/Storage/JobEventRecord.cs
+// 설명: 파일 기반 이벤트 레코드를 표현하는 모델입니다. 이벤트 시퀀스와 메시지를 포함합니다.
+
 namespace SatelliteProcessing.Infrastructure.Storage;
 
 /// <summary>

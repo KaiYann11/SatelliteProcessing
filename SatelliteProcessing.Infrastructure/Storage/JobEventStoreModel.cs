@@ -1,3 +1,6 @@
+// 파일: SatelliteProcessing.Infrastructure/Storage/JobEventStoreModel.cs
+// 설명: 이벤트 저장소에 기록되는 이벤트 모델(직렬화용)입니다.
+
 namespace SatelliteProcessing.Infrastructure.Storage;
 
 /// <summary>

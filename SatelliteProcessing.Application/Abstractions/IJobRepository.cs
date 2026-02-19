@@ -1,5 +1,8 @@
 using SatelliteProcessing.Domain;
 
+// 파일: SatelliteProcessing.Application/Abstractions/IJobRepository.cs
+// 설명: 작업 저장소에 대한 추상 인터페이스입니다. 영속화 및 조회 기능을 제공합니다.
+
 namespace SatelliteProcessing.Application.Abstractions;
 
 /// <summary>

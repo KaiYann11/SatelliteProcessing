@@ -2,6 +2,9 @@ using SatelliteProcessing.Application.Abstractions;
 using SatelliteProcessing.Application.Models;
 using SatelliteProcessing.Domain;
 
+// 파일: SatelliteProcessing.Application/Services/JobProcessingEngine.cs
+// 설명: 작업 처리 엔진 구현입니다. 각 처리 단계를 순차적으로 실행하고 이벤트를 생성합니다.
+
 namespace SatelliteProcessing.Application.Services;
 
 /// <summary>

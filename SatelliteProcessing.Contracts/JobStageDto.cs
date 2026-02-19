@@ -1,3 +1,6 @@
+// 파일: SatelliteProcessing.Contracts/JobStageDto.cs
+// 설명: 작업의 각 단계 정보를 전송하기 위한 DTO입니다. 단계 상태와 결과를 포함합니다.
+
 namespace SatelliteProcessing.Contracts;
 
 /// <summary>

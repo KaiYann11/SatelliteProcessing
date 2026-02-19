@@ -1,3 +1,6 @@
+// 파일: SatelliteProcessing.Infrastructure/Storage/StoragePathResolver.cs
+// 설명: 저장소 데이터 디렉터리 및 경로를 결정하는 유틸리티입니다.
+
 namespace SatelliteProcessing.Infrastructure.Storage;
 
 /// <summary>

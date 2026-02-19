@@ -4,6 +4,9 @@ using SatelliteProcessing.Domain;
 using SatelliteProcessing.Infrastructure.Options;
 using SatelliteProcessing.Infrastructure.Storage;
 
+// 파일: SatelliteProcessing.Infrastructure/Repositories/JsonJobEventRepository.cs
+// 설명: JSON 파일 기반 이벤트 저장소 구현입니다. 이벤트를 직렬화하여 파일에 기록합니다.
+
 namespace SatelliteProcessing.Infrastructure.Repositories;
 
 /// <summary>

@@ -2,6 +2,9 @@ using System.Linq;
 using SatelliteProcessing.Application.Abstractions;
 using SatelliteProcessing.Domain;
 
+// 파일: SatelliteProcessing.Infrastructure/Repositories/InMemoryJobEventRepository.cs
+// 설명: 테스트용 인메모리 이벤트 저장소 구현입니다.
+
 namespace SatelliteProcessing.Infrastructure.Repositories;
 
 /// <summary>

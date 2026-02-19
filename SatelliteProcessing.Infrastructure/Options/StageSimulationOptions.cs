@@ -1,5 +1,8 @@
 using SatelliteProcessing.Domain;
 
+// 파일: SatelliteProcessing.Infrastructure/Options/StageSimulationOptions.cs
+// 설명: 단계 시뮬레이션(지연 및 실패율) 관련 설정 모델입니다.
+
 namespace SatelliteProcessing.Infrastructure.Options;
 
 /// <summary>

@@ -1,3 +1,6 @@
+// 파일: SatelliteProcessing.Application/Models/CreateJobCommand.cs
+// 설명: 작업 생성을 위한 커맨드 모델입니다. API로부터 전달된 데이터를 내부 처리용으로 변환합니다.
+
 namespace SatelliteProcessing.Application.Models;
 
 /// <summary>

@@ -1,3 +1,6 @@
+// 파일: SatelliteProcessing.Application/Models/StageProcessingResult.cs
+// 설명: 단계 처리 결과를 나타내는 모델입니다. 성공/실패 및 결과 메시지를 포함합니다.
+
 namespace SatelliteProcessing.Application.Models;
 
 /// <summary>

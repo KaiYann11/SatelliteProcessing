@@ -1,3 +1,6 @@
+// 파일: SatelliteProcessing.Domain/ProcessingStatus.cs
+// 설명: 처리 단계의 실행 상태를 나타내는 열거형입니다. 각 값은 단계의 현재 상태를 표현합니다.
+
 namespace SatelliteProcessing.Domain;
 
 /// <summary>

@@ -1,3 +1,6 @@
+// 파일: SatelliteProcessing.Contracts/JobFinalStatus.cs
+// 설명: 작업의 최종 상태를 표현하는 계약용 열거형입니다 (API 응답에서 사용됨).
+
 namespace SatelliteProcessing.Contracts;
 
 /// <summary>

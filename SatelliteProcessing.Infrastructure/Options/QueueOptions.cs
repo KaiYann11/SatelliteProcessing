@@ -1,3 +1,6 @@
+// 파일: SatelliteProcessing.Infrastructure/Options/QueueOptions.cs
+// 설명: 큐 구성 옵션 모델입니다 (모드, 디렉터리, 폴링 간격 등).
+
 namespace SatelliteProcessing.Infrastructure.Options;
 
 /// <summary>

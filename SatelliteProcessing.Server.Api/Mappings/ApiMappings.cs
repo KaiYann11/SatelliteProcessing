@@ -3,6 +3,9 @@ using SatelliteProcessing.Application.Models;
 using SatelliteProcessing.Contracts;
 using SatelliteProcessing.Domain;
 
+// 파일: SatelliteProcessing.Server.Api/Mappings/ApiMappings.cs
+// 설명: 도메인 모델과 API DTO 간의 변환 유틸리티를 제공합니다.
+
 namespace SatelliteProcessing.Server.Api.Mappings;
 
 /// <summary>

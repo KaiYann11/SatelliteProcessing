@@ -1,3 +1,6 @@
+// 파일: SatelliteProcessing.Contracts/JobEventDto.cs
+// 설명: 작업 이벤트를 전송하기 위한 DTO입니다. 이벤트 시퀀스와 타입, 메시지를 포함합니다.
+
 namespace SatelliteProcessing.Contracts;
 
 /// <summary>

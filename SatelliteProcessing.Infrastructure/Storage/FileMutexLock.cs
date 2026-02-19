@@ -1,3 +1,6 @@
+// 파일: SatelliteProcessing.Infrastructure/Storage/FileMutexLock.cs
+// 설명: 파일 기반 뮤텍스(lock) 구현입니다. 파일 잠금으로 동시성 제어를 수행합니다.
+
 namespace SatelliteProcessing.Infrastructure.Storage;
 
 /// <summary>

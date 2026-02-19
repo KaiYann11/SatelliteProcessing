@@ -1,3 +1,6 @@
+// 파일: SatelliteProcessing.Domain/JobStageRecord.cs
+// 설명: 작업의 각 처리 단계에 대한 기록을 나타내는 도메인 모델입니다. 단계별 상태와 결과를 포함합니다.
+
 namespace SatelliteProcessing.Domain;
 
 /// <summary>

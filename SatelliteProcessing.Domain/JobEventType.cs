@@ -1,3 +1,6 @@
+// 파일: SatelliteProcessing.Domain/JobEventType.cs
+// 설명: 도메인에서 사용되는 작업 이벤트 유형을 정의하는 열거형입니다.
+
 namespace SatelliteProcessing.Domain;
 
 /// <summary>

@@ -1,3 +1,6 @@
+// 파일: SatelliteProcessing.Contracts/JobDto.cs
+// 설명: API 또는 외부와 주고받는 작업(Job) 데이터 전송 객체(DTO)입니다.
+
 namespace SatelliteProcessing.Contracts;
 
 /// <summary>

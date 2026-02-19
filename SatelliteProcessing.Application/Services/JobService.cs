@@ -2,6 +2,9 @@ using SatelliteProcessing.Application.Abstractions;
 using SatelliteProcessing.Application.Models;
 using SatelliteProcessing.Domain;
 
+// 파일: SatelliteProcessing.Application/Services/JobService.cs
+// 설명: 작업 생성 및 조회 등 애플리케이션 수준의 비즈니스 로직을 제공하는 서비스 구현입니다.
+
 namespace SatelliteProcessing.Application.Services;
 
 /// <summary>

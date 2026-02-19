@@ -1,5 +1,8 @@
 using SatelliteProcessing.Domain;
 
+// 파일: SatelliteProcessing.Infrastructure/Storage/JobStageRecordData.cs
+// 설명: 작업 단계 기록을 파일에 저장하기 위한 데이터 구조입니다.
+
 namespace SatelliteProcessing.Infrastructure.Storage;
 
 /// <summary>

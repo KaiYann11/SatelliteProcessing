@@ -1,6 +1,9 @@
 using System.Threading.Channels;
 using SatelliteProcessing.Application.Abstractions;
 
+// 파일: SatelliteProcessing.Infrastructure/Queues/InMemoryJobQueue.cs
+// 설명: 인메모리 기반 작업 큐 구현입니다. 빠른 로컬 개발 및 테스트용입니다.
+
 namespace SatelliteProcessing.Infrastructure.Queues;
 
 /// <summary>

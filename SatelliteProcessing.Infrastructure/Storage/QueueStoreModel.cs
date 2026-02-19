@@ -1,3 +1,6 @@
+// 파일: SatelliteProcessing.Infrastructure/Storage/QueueStoreModel.cs
+// 설명: 큐에 저장되는 항목 모델(직렬화용)입니다.
+
 namespace SatelliteProcessing.Infrastructure.Storage;
 
 /// <summary>

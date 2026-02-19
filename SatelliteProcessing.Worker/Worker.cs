@@ -1,3 +1,6 @@
+// 파일: SatelliteProcessing.Worker/Worker.cs
+// 설명: 백그라운드 워커 구현입니다. 큐에서 작업을 꺼내 처리 엔진을 호출합니다.
+
 namespace SatelliteProcessing.Worker;
 
 public class Worker : BackgroundService

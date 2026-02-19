@@ -1,3 +1,6 @@
+// 파일: SatelliteProcessing.Contracts/ProcessingStage.cs
+// 설명: 처리 단계 정보를 나타내는 계약용 열거형입니다 (API DTO에서 사용됨).
+
 namespace SatelliteProcessing.Contracts;
 
 /// <summary>

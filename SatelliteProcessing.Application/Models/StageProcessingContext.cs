@@ -1,5 +1,8 @@
 using SatelliteProcessing.Domain;
 
+// 파일: SatelliteProcessing.Application/Models/StageProcessingContext.cs
+// 설명: 개별 단계가 처리될 때 전달되는 컨텍스트 정보를 포함하는 모델입니다.
+
 namespace SatelliteProcessing.Application.Models;
 
 /// <summary>

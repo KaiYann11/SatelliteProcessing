@@ -3,6 +3,9 @@ using System.Linq;
 using SatelliteProcessing.Application.Abstractions;
 using SatelliteProcessing.Domain;
 
+// 파일: SatelliteProcessing.Infrastructure/Repositories/InMemoryJobRepository.cs
+// 설명: 테스트 및 개발용 인메모리 작업 저장소 구현입니다.
+
 namespace SatelliteProcessing.Infrastructure.Repositories;
 
 /// <summary>

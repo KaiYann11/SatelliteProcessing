@@ -1,3 +1,6 @@
+// 파일: SatelliteProcessing.Application/Abstractions/IJobQueue.cs
+// 설명: 작업 큐 추상 인터페이스입니다. 작업을 큐에 넣고 꺼내는 기능을 정의합니다.
+
 namespace SatelliteProcessing.Application.Abstractions;
 
 /// <summary>

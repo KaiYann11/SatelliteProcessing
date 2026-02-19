@@ -1,6 +1,9 @@
 using System.Security.Cryptography;
 using System.Text;
 
+// 파일: SatelliteProcessing.Infrastructure/Storage/MutexNameBuilder.cs
+// 설명: 파일 기반 뮤텍스 이름을 생성하기 위한 유틸리티입니다. 파일 잠금 식별자 생성에 사용됩니다.
+
 namespace SatelliteProcessing.Infrastructure.Storage;
 
 /// <summary>

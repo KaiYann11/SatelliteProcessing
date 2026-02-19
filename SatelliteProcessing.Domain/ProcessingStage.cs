@@ -1,3 +1,6 @@
+// 파일: SatelliteProcessing.Domain/ProcessingStage.cs
+// 설명: 처리 파이프라인의 각 단계를 정의하는 열거형입니다. 단계 순서를 나타냅니다.
+
 namespace SatelliteProcessing.Domain;
 
 /// <summary>

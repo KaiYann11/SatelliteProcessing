@@ -1,5 +1,8 @@
 using SatelliteProcessing.Domain;
 
+// 파일: SatelliteProcessing.Application/Abstractions/IJobEventRepository.cs
+// 설명: 작업 이벤트를 저장하고 조회하기 위한 저장소 인터페이스입니다.
+
 namespace SatelliteProcessing.Application.Abstractions;
 
 /// <summary>

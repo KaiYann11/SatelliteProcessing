@@ -1,3 +1,6 @@
+// 파일: SatelliteProcessing.Infrastructure/Options/StorageOptions.cs
+// 설명: 저장소 구성 옵션을 표현하는 모델입니다 (모드, 데이터 디렉터리 등).
+
 namespace SatelliteProcessing.Infrastructure.Options;
 
 /// <summary>

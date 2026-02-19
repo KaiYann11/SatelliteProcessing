@@ -4,6 +4,9 @@ using SatelliteProcessing.Domain;
 using SatelliteProcessing.Infrastructure.Options;
 using SatelliteProcessing.Infrastructure.Storage;
 
+// 파일: SatelliteProcessing.Infrastructure/Repositories/JsonJobRepository.cs
+// 설명: JSON 파일 기반 작업 저장소 구현입니다. 작업 데이터를 파일로 직렬화/역직렬화합니다.
+
 namespace SatelliteProcessing.Infrastructure.Repositories;
 
 /// <summary>

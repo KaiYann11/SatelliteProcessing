@@ -4,6 +4,9 @@ using SatelliteProcessing.Application.Models;
 using SatelliteProcessing.Domain;
 using SatelliteProcessing.Infrastructure.Options;
 
+// 파일: SatelliteProcessing.Infrastructure/Processing/SimulatedStageProcessor.cs
+// 설명: 시뮬레이션용 단계 프로세서 구현입니다. 지연과 실패율을 모방하여 테스트에 사용됩니다.
+
 namespace SatelliteProcessing.Infrastructure.Processing;
 
 /// <summary>

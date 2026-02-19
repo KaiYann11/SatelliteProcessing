@@ -1,6 +1,9 @@
 using System.Collections.ObjectModel;
 using System.Linq;
 
+// 파일: SatelliteProcessing.Domain/ProcessingJob.cs
+// 설명: 처리 중인 작업(Job)을 나타내는 도메인 모델입니다. 작업의 메타데이터와 상태를 포함합니다.
+
 namespace SatelliteProcessing.Domain;
 
 /// <summary>
