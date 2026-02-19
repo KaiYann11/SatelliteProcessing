@@ -1,35 +1,55 @@
 # SatelliteProcessing
 
-Small sample satellite-processing pipeline implemented in .NET (multiple projects).
+[![CI](https://github.com/KaiYann11/SatelliteProcessing/actions/workflows/ci.yml/badge.svg)](https://github.com/KaiYann11/SatelliteProcessing/actions)
 
-## What this repo contains
-- `SatelliteProcessing.Application` - application core and services
-- `SatelliteProcessing.Contracts` - DTOs and API contracts
-- `SatelliteProcessing.Domain` - domain models
-- `SatelliteProcessing.Infrastructure` - storage, queues, repositories
-- `SatelliteProcessing.Server.Api` - HTTP API
-- `SatelliteProcessing.Worker` - background worker process
-- `SatelliteProcessing.Client.Web` / `Client.Wpf` - example clients
+Small, modular satellite-job processing sample implemented in .NET. The solution demonstrates a staged processing pipeline, pluggable persistence/queue adapters, and a minimal API + worker pair.
+
+## Repository layout
+- `SatelliteProcessing.Application` — application core, engine interfaces and services
+- `SatelliteProcessing.Contracts` — DTOs and API contract types
+- `SatelliteProcessing.Domain` — domain models and enums
+- `SatelliteProcessing.Infrastructure` — file/in-memory adapters for queues, repositories, storage, and time
+- `SatelliteProcessing.Server.Api` — HTTP API for job creation and status
+- `SatelliteProcessing.Worker` — background worker that executes staged processing
+- `SatelliteProcessing.Client.Web` / `Client.Wpf` — example client UIs
 
 ## Quick start (Windows)
-1. Ensure .NET SDK installed (6/7+). Build solution:
+
+Prerequisites: .NET SDK (6.0 or later) installed.
+
+1. Restore and build the solution:
+
 ```powershell
-dotnet build SatelliteProcessing.sln
+dotnet restore
+dotnet build SatelliteProcessing.sln --configuration Debug
 ```
-2. Run API for local testing:
+
+2. Run the API for local testing:
+
 ```powershell
 cd SatelliteProcessing.Server.Api
 dotnet run
 ```
-3. Run worker in another terminal:
+
+3. In another terminal run the worker:
+
 ```powershell
 cd SatelliteProcessing.Worker
 dotnet run
 ```
 
+4. Create a job via the client or POST to the API endpoint described in `Server.Api` (see `appsettings.json` for port).
+
 ## Development notes
-- Projects are class-library and console/web templates; edit and run via Visual Studio or `dotnet` CLI.
-- See `DESIGN.md` for architecture and processing flow.
+- The processing pipeline is orchestrated by `IJobProcessingEngine` and executed in stages via `IStageProcessor` implementations. See `SatelliteProcessing.Application` for engine details.
+- Default infrastructure implementations are file/JSON and in-memory for easy local development. Replace via DI to use cloud providers.
+- Add new stage processors by implementing `IStageProcessor` and registering it with DI.
+
+## CI
+This repository includes a GitHub Actions workflow that restores dependencies and builds the solution. It will run on every push and PR to `main`.
 
 ## Contributing
-PRs welcome. Keep changes focused and include tests where applicable.
+- Open an issue or PR. Keep changes focused and include tests where applicable.
+
+## License
+Specify your license or add a `LICENSE` file.
